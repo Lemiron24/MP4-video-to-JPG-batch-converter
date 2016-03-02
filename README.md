@@ -3,13 +3,15 @@ Specify a directory, this script will search it to find all MP4 videos, convert 
 
 ## Usage
 
+Download and ```chmod +x generateFrames.sh``` to make it executable. Now use as follows:
+
 Example 1: Create 5 images every second of video (ie every 200ms):
 
-```script.sh /home/user/directoryOfVideos 5```
+```./generateFrames.sh /home/user/directoryOfVideos 5```
 
 Example 2: Can also optionally pass scale as 3rd parameter
 
-```script.sh /home/user/directoryOfVideos 5 320:-1```
+```./generateFrames.sh /home/user/directoryOfVideos 5 320:-1```
 
 In this case it would resize the width to be 320px and keep aspect ratio for height.
 

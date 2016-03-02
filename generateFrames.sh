@@ -28,7 +28,7 @@ find "$DIRECTORY" -name '*.jpg' | xargs rm
 # This is important as ffmpeg refuses to excute more than once
 # if using a regular loop using find.
 unset a i
-while IFS= read -r -d $'\0' file; do
+while IFS= read -r -d '' file; do
   a[i++]="$file"
 done < <(find "$DIRECTORY" -name '*.mp4' -type f -print0)
 

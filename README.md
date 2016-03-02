@@ -16,3 +16,10 @@ In this case it would resize the width to be 320px and keep aspect ratio for hei
 ## Dependencies
 
 * Requires FFMPEG to work.
+
+To get FFMPEG on Ubuntu you may need to do the following depending on your release:
+```
+sudo add-apt-repository ppa:kirillshkrogalev/ffmpeg-next
+sudo apt-get update
+sudo apt-get install ffmpeg
+```

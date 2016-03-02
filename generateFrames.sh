@@ -6,7 +6,7 @@
 # Usage Example 1: Create 5 images every second of video (ie every 200ms)
 # script.sh /home/user/directoryOfVideos 5
 #
-# Can also optionally pass scale as 3nd parameter. For example:
+# Can also optionally pass scale as 3rd parameter. For example:
 # script.sh /home/user/directoryOfVideos 5 320:-1
 # In this case it would resize the width to be 320px and keep aspect ratio for height.
 # @author Jason Mayes
